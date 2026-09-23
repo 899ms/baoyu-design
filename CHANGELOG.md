@@ -4,6 +4,24 @@ English | [中文](./CHANGELOG.zh.md)
 
 All notable changes to `baoyu-design` are tracked in this file.
 
+## 1.3.0 - 2026-09-23
+
+### Features
+- Synchronize the September 14 Claude Design snapshot: a new `watercolor-kit` starter paints deterministic, code-driven watercolors and replays them stroke by stroke, with matching watercolor components in `animations-v3` for painterly animation beats (plus a portable fallback when hosted painting tools are unavailable).
+- Absorb upstream guidance on GitHub sync receipts, minimum text contrast, and fluid layouts; PDF exports now rebuild the print copy from a fresh read of the design with optional source-version provenance.
+
+### Fixes
+- Soften mouse-wheel zoom on the design canvas: each wheel click now zooms 10% instead of ~20%, and zoom-vs-pan is decided once per scroll, so trackpad or Magic Mouse momentum can no longer blow the canvas up mid-pan.
+- Keep fit-mode `doc-page` content on a single printed sheet instead of spilling onto a second page.
+- Reject absolute asset paths when importing a design system, closing a path-traversal gap (by @anupamme)
+
+### Changed
+- Tweak-panel chat submissions are tagged as suggestion, free text, or ideas requests, and the suggestion bar reports a single impression per session.
+- Record the local design-canvas patch alongside the existing deck-stage patches so upstream syncs reapply it, with a test guarding it.
+
+### Documentation
+- Mention the watercolor painting runtime in the English and Chinese starter-component overviews.
+
 ## 1.2.0 - 2026-07-25
 
 ### Features
