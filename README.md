@@ -99,7 +99,7 @@ The skill drives a full design process — clarifying questions → gathering de
 | **Export & handoff** | Standalone HTML · PDF · PPTX (editable) · PPTX (screenshots) · Video (MP4) · Send to Figma · Send to Canva · Handoff to Claude Code |
 | **AI assets & integration** | Gemini image generation · Call Claude from prototypes · Read PDF |
 
-**Starter components** (in [`starter-components/`](skills/baoyu-design/starter-components/)) save the agent from hand‑rolling the basics: device, browser, and social-media shells; a pan‑zoom design canvas; slide, animation, chart, document, file, and 3D stages; a tweaks panel; and a fillable image slot.
+**Starter components** (in [`starter-components/`](skills/baoyu-design/starter-components/)) save the agent from hand‑rolling the basics: device, browser, and social-media shells; a pan‑zoom design canvas; slide, animation, chart, document, file, and 3D stages; a tweaks panel; a fillable image slot; and a watercolor painting runtime that replays a painting stroke by stroke.
 
 ---
 
